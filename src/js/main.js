@@ -1,8 +1,5 @@
 
-//function btnColorSelector(){
-//    var btncolor = document.getElementById("color").value;
-//    document.getElementById('demo').innerHTML = StyleSheet.
-//}
+
 
 var colorWell;
 var defaultColor = "#0000ff";
@@ -30,3 +27,26 @@ function updateFirst(event) {
     });
   }
 
+
+
+
+// }
+ //window.addEventListener("load", startcolorSelect, false);
+
+ function changeColor(event) {
+    var colorPicker = document.getElementById("colorPick")
+     var colorMe = document.getElementById("colorMe");
+
+
+    if (colorPicker.value == "red") {
+        colorMe.style.color = "red";
+    } else if (colorPicker.value == "green") {
+        colorMe.style.color = "green";
+    } else if (colorPicker.value == "blue") {
+        colorMe.style.color = "blue";
+    } else if (colorPicker.value == "Pink") {
+        colorMe.style.color = "Pink";
+    } else {
+      alert("There was an error!");
+    }};
+console.log("end of code.")
