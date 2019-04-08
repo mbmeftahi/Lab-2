@@ -1,9 +1,4 @@
 # html-starter
-A starter package for basic HTML projects
+As a user, I want to choose the color of div#demo
 
-```sh
-cd /var/www
-git clone https://github.com/stack-x/html-starter.git PROJECT-NAME
-cd PROJECT-NAME
-rm -fR .git
-```
+As a user, I want to use a picklist to choose the color of div#demo
